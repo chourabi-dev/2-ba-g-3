@@ -1,0 +1,93 @@
+/*
+selector   {
+    key : value;
+    key : value;
+    key : value;
+    key : value;
+    key : value;
+    
+}
+*/
+
+/* TAGENAME */
+
+h1 {
+    color: orange;
+}
+
+/* id */
+#blue-title{
+    color: blue;
+}
+
+/* class */
+.red-titles{
+    color: red;
+}
+
+
+
+.test-p{
+    color: #a7a7a7;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+/*
+    padding: 10px 20px 5px 2px; 4 values
+    border: 1px solid red;
+    margin: 20px; // 1value  or 2 values
+*/
+
+
+.square{
+    height: 100px;
+    width: 100px;
+    border: 1px solid orange;
+    border-radius: 7px;
+}
+
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border: 1px solid orange;
+    border-radius: 50%;
+}
+
+
+
+
+.banner {
+    border: 1px solid #c8c8c8;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+
+.banner >.title {
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #e8baba;
+    margin-bottom: 15px;
+}
+
+
+.banner > .content{
+    color: #898989;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+
+.banner  > .actions > button{
+    border: 0;
+    padding: 7px 44px;
+    background-color: #b7e9ff;
+    border-radius: 30px;
+}
