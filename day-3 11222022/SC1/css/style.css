@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+}
+
+.list{
+    height: 119px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    border:  1px solid black;
+    display: inline-block;
+}
+
+
+/* POSITION */
+ 
+.parent{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: orange;
+    position: absolute;
+    /*
+        top: ;
+        bottom: ;
+        left: ;
+        right: ;
+        
+    */
+}
+
+
+.screen-fixed{ 
+    height: 20px;
+    width: 80px;
+    background-color: orange;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

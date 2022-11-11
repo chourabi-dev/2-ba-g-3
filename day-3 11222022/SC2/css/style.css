@@ -1,0 +1,78 @@
+.d-flex{
+    display: flex;
+}
+
+.center-element{
+    justify-content: center;
+}
+
+.square{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+ 
+.parent{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.middle-screen-child{
+
+}
+
+
+.article > .header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article > .header > .user-info {
+    display: flex;
+}
+
+.article > .header > .user-info  > .info{
+    margin-top: 19px;
+    margin-left: 15px;
+}
+
+.user-tile{
+    font-weight: bold;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+
+.article > .header > .user-info > .avatar > img{
+    width: 80px;
+}
+
+.actions{
+    margin-top: 30px;
+}
+
+.article > .content > p{
+    color: rgb(94, 94, 94);
+}
+
+
+.article > .footer{
+    display: flex;
+}
+
+.article > .footer > div{
+    width: 33.3333333%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.article{
+    border: 1px solid gray;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 7px;
+}
