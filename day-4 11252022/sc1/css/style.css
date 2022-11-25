@@ -1,0 +1,12 @@
+.custom-button{
+    background-color: orange;
+}
+
+.custom-button:focus{
+    background-color: blue;
+}
+
+
+.my-navbar{
+    background-color: orange;
+}
