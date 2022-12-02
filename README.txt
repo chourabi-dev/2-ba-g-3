@@ -37,6 +37,11 @@ npx create-react-app app_name
 npm start
 
 
+******************** add bootstrap too project ********************
+
+npm install bootstrap
+
+
 
 
 
