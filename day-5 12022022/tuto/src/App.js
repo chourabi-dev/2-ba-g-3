@@ -62,8 +62,7 @@ function App() {
      <div className="row">
      {
       products.map( (p)=>{
-        return 
-        <div className="col-md-4">
+        return <div className="col-md-4">
           <Product title={ p.title }    price={ p.price }   />
         </div>
       } )

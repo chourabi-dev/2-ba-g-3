@@ -1,0 +1,21 @@
+.switch{
+  height: 35px;
+  width: 90px;
+  background-color: rgb(216, 216, 216);
+  border-radius: 30px;
+  position: relative;
+}
+
+.switch > div{
+  position: absolute;
+  left: 0;
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border-radius: 50%;
+  transition: left 0.5s ease-in-out;
+}
+
+.switch.active > div{
+  left: 55px;
+}
