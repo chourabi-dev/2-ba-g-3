@@ -1,4 +1,5 @@
 import Counter from "./componenets/Counter";
+import Forms from "./componenets/Forms";
 import SwitchBtn from "./componenets/SwitchButton";
 
  
@@ -12,7 +13,18 @@ function App() {
         */
        }
 
-       <SwitchBtn />
+       {
+        /**
+         * <SwitchBtn />
+         */
+       }
+
+
+
+       <Forms />
+
+
+
     </div>
   );
 }

@@ -7,10 +7,7 @@ export default class SwitchBtn extends React.Component{
         this.state = {
             clicked: false
         }
-    }
-
-
-
+    }  
     render(){
         return(
             <div
